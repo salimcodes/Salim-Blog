@@ -1,4 +1,4 @@
-# Salim's Blog
+# Salim Blog API
 
 A Simple Blog Service created with Fast API and Redis-OM
 
@@ -55,15 +55,40 @@ Data is accessed using a pk i.e. a keyword that is assigned to each author.
 
 Step 1: Clone the repository locally. 
 
-Step 2: Create a virtual environment
+Step 2: Create and activate a virtual environment. 
+
+For windows
+```
+$ python  -m venv env 
+$ cd env\Scripts\activate
+```
+
+For MacOS
+```
+$ python3 -m venv env 
+$ source env/bin/activate
+```
+
+Step 3: Install all the needed dependencies in the virtual environment
+```
+pip install -r requirements.txt
+```
+
+Step 4: Go to the blog directory and run the server
+
+```
+$ cd blog
+$ uvicorn main:app --reload
+```
+
+Navigate to http://127.0.0.1:8000/docs in your browser
 
 ### Prerequisites
 
-[Fill out with any prerequisites (e.g. Node, Docker, etc.). Specify minimum versions]
+- A python interpreter
+- A code editor
 
-### Local installation
 
-[Insert instructions for local installation]
 
 ## Deployment
 
@@ -71,19 +96,19 @@ To make deploys work, you need to create free account on [Redis Cloud](https://r
 
 ### Google Cloud Run
 
-[Insert Run on Google button](https://cloud.google.com/blog/products/serverless/introducing-cloud-run-button-click-to-deploy-your-git-repos-to-google-cloud)
+To run on Google button, check [here](https://cloud.google.com/blog/products/serverless/introducing-cloud-run-button-click-to-deploy-your-git-repos-to-google-cloud)
 
 ### Heroku
 
-[Insert Deploy on Heroku button](https://devcenter.heroku.com/articles/heroku-button)
+To deploy on Heroku button, check [here](https://devcenter.heroku.com/articles/heroku-button)
 
 ### Netlify
 
-[Insert Deploy on Netlify button](https://www.netlify.com/blog/2016/11/29/introducing-the-deploy-to-netlify-button/)
+To deploy on Netlify button, check [here](https://www.netlify.com/blog/2016/11/29/introducing-the-deploy-to-netlify-button/)
 
 ### Vercel
 
-[Insert Deploy on Vercel button](https://vercel.com/docs/deploy-button)
+To deploy on Vercel button,check [here](https://vercel.com/docs/deploy-button)
 
 ## More Information about Redis Stack
 
