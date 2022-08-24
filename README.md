@@ -8,7 +8,6 @@ A Simple Blog Service created with Fast API and Redis-OM
 
 ![image](https://user-images.githubusercontent.com/64667212/186480338-c1832cea-6527-4ba6-9343-9fe97b01cfd7.png)
 
-![image](https://user-images.githubusercontent.com/64667212/186480601-c3b89d36-7a11-4116-a5d8-cc7758ffe4fb.png)
 
 # Overview video
 
@@ -81,7 +80,17 @@ $ cd blog
 $ uvicorn main:app --reload
 ```
 
-Navigate to http://127.0.0.1:8000/docs in your browser
+Step 5: Navigate to http://127.0.0.1:8000 in your browser. 
+
+This returns the home page below;
+
+![image](https://user-images.githubusercontent.com/64667212/186480601-c3b89d36-7a11-4116-a5d8-cc7758ffe4fb.png)
+
+Step 6: Add a `/docs` path in the url tab as shown below;
+
+![image](https://user-images.githubusercontent.com/64667212/186541745-5e6ea608-db23-4f2d-8823-eb61ebc14d12.png)
+
+Step 7: Enter the url `http://127.0.0.1:8000/docs` to run the app.
 
 ### Prerequisites
 
