@@ -53,7 +53,7 @@ Data is accessed using a pk i.e. a keyword that is assigned to each author.
 
 ## How to run it locally?
 
-Step 1: Clone the repository locally. 
+Step 1: Clone the repository locally to a location of your choice. 
 
 Step 2: Create and activate a virtual environment. 
 
